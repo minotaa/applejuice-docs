@@ -1,0 +1,14 @@
+{
+    "short_name": "Guide",
+    "name": "applejuice Hosting Guide",
+    "icons": [
+        {
+            "src": "/img/logo.png",
+            "type": "image/png",
+            "sizes": "192x192"
+        }
+    ],
+    "display": "minimal-ui",
+    "start_url": "/",
+    "background_color": "#ff1c1c"
+}
