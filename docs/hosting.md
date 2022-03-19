@@ -32,7 +32,7 @@ What you'd need is the `6969` part, then with that matchpost ID, you perform the
 /matchpost <id>
 ```
 
-For example, you'd do `/matchpost 6969` with the example matchpost, doing this command will help the server identify your match & configure itself properly to help make some aspects of opening your game easier.
+For example, you'd do `/matchpost 6969` with the example matchpost, doing this command will help the server identify your match & make the server automatically broadcast & open your game. This doesn't automate any processes like configuring the UHC Config & generating a world. 
 
 ### Generating a world
 
@@ -53,6 +53,10 @@ To generate a world, you must perform the command:
 Types: `cityworld`, `overworld`, `nether`
 
 :::
+
+For example, if I wanted to generate a `2000x2000` (diameter) world, you'd do `/pregen minota 1000 overworld`.
+
+If you aren't happy with the way your world looks, you may cancel it! Use `/pregen cancel`, and then run the command again until you have something you want.
 
 ### Configuring your game
 
@@ -102,19 +106,21 @@ To see the rest of the team commands, you'd perform the command:
 
 ## Starting a game
 
-To start a game, you'd perform the command:
-
 :::warning
 
-Try to be in `/spec` mode before you perform the command, otherwise you'd be scattered & it'd be all messy.
+**WARNING:** Before starting your game, you should be in Spectator Mode, this can be done by running `/spec`, this will prevent you from being scattered & help you run your game smoothly.
 
 :::
+
+To start a game, you'd perform the command:
 
 ```
 /start <ffa/teams>
 ```
 
-If you want to latescatter players, use the command:
+### Late-scattering players
+
+Presume someone joins late, you'd likely want to late-scatter them, you'd need to perform the command `/ls` to late-scatter them, the usage is listed below: 
 
 ```
 /ls <player> [optional teammate]
@@ -122,7 +128,11 @@ If you want to latescatter players, use the command:
 
 The optional teammate argument means that the first player gets teleported to that optional teammate & added to their team.
 
-## Ending a game
+### Cancelling a game
+
+Have a low fill? Unavailable to host your game? You're allowed to use `/cancel` in the server to cancel your matchpost, be sure to remove your matchpost on `hosts.uhc.gg` as well!
+
+### Ending a game
 
 Once a team/player ends up victorous, you must perform the command `/winner` on all winning players.
 
@@ -131,3 +141,23 @@ Once a team/player ends up victorous, you must perform the command `/winner` on 
 ```
 
 This'll then count that player as a winner, then you are safe to do `/end` and finally end the game.
+
+## Moderating your game
+
+:::note
+
+It's recommended to see the [Punishments Guideline](punishments) on how (or how long) to punish a player.
+
+:::
+
+Moderation of your game is seriously recommended towards having a nice experience, banning hackers & resolving conflicts is recommended towards having a smooth game.
+
+If you're hosting a game & you're in **Spectator Mode**, you'll see Mining Alerts & Combat Alerts of people mining & fighting, it's advised that you look at the activity as you could never know whether someone could be X-raying, Cheating, Flying, etc.
+
+The commands you'd recognize from moderating your servers are made available to you, like `/ban`, `/mute`, `/kick`, `/warn`, `/banip`, etc. 
+
+If you recognize a player as hacking, you must record evidence of them hacking (i.e. footage from a screenrecorder).
+
+### Helpop
+
+You're also given a feed of people asking for request, using `/helpop`, To reply to these requests, you may click on the message to be given a suggestion to help you reply to the help-op message.
