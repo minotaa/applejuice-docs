@@ -16,7 +16,7 @@ You need to navigate to [hosts.uhc.gg/host](https://hosts.uhc.gg/host), then you
 
 For the version, you must insert `1.8` as the main version & `1.8.x` as the version range.
 
-You must insert the proper scenarios in your matchpost, they must be in the server & explained in the [pastebin](https://pastebin.com/raw/LcgRZ0iV).
+You must insert the proper scenarios in your matchpost, they must be in the server & explained in the [pastebin](https://pastebin.com/raw/LcgRZ0iV)..
 
 For the Server Address, you must insert `na.applejuice.bar` as the Address.
 
