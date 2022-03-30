@@ -19,7 +19,7 @@ I (`minota#0887`) have gone out of my way to make hosting easy, if you have any 
 As if it weren't obvious, you should probably be on the **applejuice** server. Connect using the IP below.
 
 ```
-applejuice.bar
+na.applejuice.bar
 ```
 
 Then, you'd need to post a match to [hosts.uhc.gg](https://hosts.uhc.gg/). If you need assistance on posting on **uhc.gg**, please refer to the [Posting Guide](posting).
@@ -45,6 +45,12 @@ To generate a world, you must perform the command:
 :::warning
 
 `<radius>` is not `<diameter>`, if you want to host a `2000x2000` border game, you'd need to use `1000`.
+
+:::
+
+:::warning
+
+Additionally, don't name your world `world`, `Spawn`, or `Arena`. Those worlds cannot be UHC worlds!
 
 :::
 
@@ -146,7 +152,7 @@ This'll then count that player as a winner, then you are safe to do `/end` and f
 
 :::note
 
-It's recommended to see the [Punishments Guideline](punishments) on how (or how long) to punish a player.
+It's recommended to see the [Punishment Guidelines](punishments) on how (or how long) to punish a player.
 
 :::
 
