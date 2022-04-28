@@ -18,9 +18,18 @@ For the version, you must insert `1.8` as the main version & `1.8.x` as the vers
 
 You must insert the proper scenarios in your matchpost, they must be in the server & explained in the [pastebin](https://pastebin.com/raw/LcgRZ0iV)..
 
+### For NA
+
 For the Server Address, you must insert `na.applejuice.bar` as the Address.
 
 For the region, it must be `North America` & the location must be `Montreal, Canada`.
+
+### For EU
+
+For the Server Address, you must insert `eu.applejuice.bar` as the Address.
+
+For the region, it must be `Europe` & the location must be `Falkenstein, Germany`.
+
 
 The available slots is `100`.
 

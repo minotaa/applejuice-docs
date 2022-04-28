@@ -16,11 +16,12 @@ sidebar_position: 2
 I (`minota#0887`) have gone out of my way to make hosting easy, if you have any suggestions however, please contact me on Discord!
 
 ## Posting your match
-As if it weren't obvious, you should probably be on the **applejuice** server. Connect using the IP below.
+Dependent on the server you wish to host on, you must connect to the corresponding server. 
 
-```
-na.applejuice.bar
-```
+| **Server Address**  | **Location**         |
+|---------------------|----------------------|
+| `na.applejuice.bar` | Montreal, Canada     |
+| `eu.applejuice.bar` | Falkenstein, Germany |
 
 Then, you'd need to post a match to [hosts.uhc.gg](https://hosts.uhc.gg/). If you need assistance on posting on **uhc.gg**, please refer to the [Posting Guide](posting).
 
@@ -124,6 +125,16 @@ To start a game, you'd perform the command:
 /start <ffa/teams>
 ```
 
+### Respawning players
+
+In some situations, you must respawn the players, perhaps a hacker may have ruined your game and killed some players that you wish to respawn, now you can respawn them. Use:
+
+```
+/respawn <player>
+```
+
+**While they're in the server** to automatically add them back into the game with all their items back.
+
 ### Late-scattering players
 
 Presume someone joins late, you'd likely want to late-scatter them, you'd need to perform the command `/ls` to late-scatter them, the usage is listed below: 
@@ -143,8 +154,11 @@ Have a low fill? Unavailable to host your game? You're allowed to use `/cancel` 
 Once a team/player ends up victorous, you must perform the command `/winner` on all winning players.
 
 ```
-/winner <ign>
+/winner <list of igns>
 ```
+
+For example, me & Yobias just won a game, you'd set us as the winners using `/winner minota Yobias`.
+Or, if you only wanted to set one winner as the winner, you'd do `/winner minota`.
 
 This'll then count that player as a winner, then you are safe to do `/end` and finally end the game.
 
