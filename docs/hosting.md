@@ -20,8 +20,7 @@ Dependent on the server you wish to host on, you must connect to the correspondi
 
 | **Server Address**  | **Location**         |
 |---------------------|----------------------|
-| `na.applejuice.bar` | Montreal, Canada     |
-| `eu.applejuice.bar` | Falkenstein, Germany |
+| `uhc.applejuice.bar` | Montreal, Canada     |
 
 Then, you'd need to post a match to [hosts.uhc.gg](https://hosts.uhc.gg/). If you need assistance on posting on **uhc.gg**, please refer to the [Posting Guide](posting).
 
@@ -40,30 +39,71 @@ For example, you'd do `/matchpost 6969` with the example matchpost, doing this c
 To generate a world, you must perform the command:
 
 ```
-/pregen <world> <radius> <type>
+/pregen <name>
 ```
 
-:::warning
+This will open up a pregeneration configuration GUI, which will allow you to configure your game better.
 
-`<radius>` is not `<diameter>`, if you want to host a `2000x2000` border game, you'd need to use `1000`.
+![Config](https://i.imgur.com/q6yiQtE.png)
 
-:::
+This GUI is key to allowing you to create worlds.
 
-:::warning
+#### Changing the border size
 
-Additionally, don't name your world `world`, `Spawn`, or `Arena`. Those worlds cannot be UHC worlds!
+![Example](https://i.imgur.com/o0MKwsj.png)
 
-:::
+The iron ingot is titled "Change Border", click it, this item allows you to configure your border size for your games.
+
+![Example](https://i.imgur.com/K7Eqcav.png)
+
+This will open up a GUI which will allow you to change the border size when you generate your world, left clicking will add **+50** to the number, and right-clicking will subtract **-50**, this border size is in radius as indicated by the **±** symbol, this means that the border in diameter would be **2000x2000** (if the number displayed is 1000x1000).
+
+For example, I want to make my world **3000x3000** in diameter, I'd configure the border size in this menu to be **±1500**, as dispalyed here: 
+
+![Example](https://i.imgur.com/Uj2R0zO.png)
+
+#### Adding CityWorld to your game
+
+Let's say you'd like to make your overworld a City World, that's simple! In the main pregeneration configuration GUI, click the redstone dust item. This will allow you to change the generation of the world. 
+
+![Example](https://i.imgur.com/XAsZru3.png)
+
+The *diamond block* allows you to change the generation type of your world, set this to **CITY_WORLD** to generate a City World game.
+
+![Example](https://i.imgur.com/TY1UuQK.png)
+
+#### Changing diamond/gold rates
+
+Let's say you'd like to decrease the gold/diamond rate by **20%**, that -- my friend -- is also simple. In the main pregeneration configuration GUI, you should see the one unmentioned item, the paper item, click it. This will allow you to change certain settings for your game like *cane rates*, *diamond/gold rates* & remove *water/logs at 0,0*.
+
+![Example](https://i.imgur.com/HL8n2Yc.gif)
+
+#### Creating your world
+
+After finally configuring your configuration to your pleasing, you'd click the emerald at the end of the main pregeneration configuration GUI, this will create your world based on the configuration given: 
+
+![Example](https://i.imgur.com/CI2dob3.png)
+
+This will begin to generate your world, visit your world using `/world tp <world name>`.
 
 :::info
 
-Types: `cityworld`, `overworld`, `nether`
+Don't like your world so far? Cancel it using `/pregen cancel` and try again!
 
 :::
 
-For example, if I wanted to generate a `2000x2000` (diameter) world, you'd do `/pregen minota 1000 overworld`.
 
-If you aren't happy with the way your world looks, you may cancel it! Use `/pregen cancel`, and then run the command again until you have something you want.
+:::warning
+
+Should the server be lagging from intensive generation, use `/pregen pause` to pause the current generation.
+
+:::
+
+
+#### OPTIONAL: Using generation commands
+
+Let's say you have a scenario like `Underground Parallel` enabled, how would you generate the world using that scenario? It's simple actually! You must perform the command `/gen` after the pregeneration task has completed. This will then automatically generate your world based on the current scenarios that require generation.
+
 
 ### Configuring your game
 
@@ -75,7 +115,12 @@ Perform the command provided below to open the UHC Configuration:
 ```
 
 You should see a GUI pop up on your screen, this is the current UHC Configuration.
+
+![Example](https://i.imgur.com/WpowUVT.png)
+
 If you want to edit any value on the UHC Configuration, click any of the items, they should provide a GUI for editing any of the values.
+
+![Example](https://i.imgur.com/oAyE9z0.gif)
 
 For example, if you wanted to turn *Absorption* off, you'd need to click the *Golden Apple* labeled **Game Options**, then you need to find the *Absorption* option & click it, then that option would be disabled, how simple is that?
 
@@ -104,6 +149,23 @@ To reset teams, you'd perform the command:
 ```
 /team reset
 ```
+
+To set players to another team you'd perform the command:
+
+```
+/team set <player1> <player2>
+```
+
+In this case, `player1` would be set to `player2`'s team.
+
+
+To create a team with multiple solos, you'd perform the command: 
+
+```
+/team ct <list of players>
+```
+
+Let's say a player named `minota` & `Grordbort` want to be teamed together, you'd perform `/team ct minota Grordbort`, this will create a team with the two solos together.
 
 To see the rest of the team commands, you'd perform the command:
 

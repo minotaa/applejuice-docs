@@ -20,20 +20,14 @@ You must insert the proper scenarios in your matchpost, they must be in the serv
 
 ### For NA
 
-For the Server Address, you must insert `na.applejuice.bar` as the Address.
+For the Server Address, you must insert `uhc.applejuice.bar` as the Address.
 
 For the region, it must be `North America` & the location must be `Montreal, Canada`.
-
-### For EU
-
-For the Server Address, you must insert `eu.applejuice.bar` as the Address.
-
-For the region, it must be `Europe` & the location must be `Falkenstein, Germany`.
 
 
 The available slots is `100`.
 
-It's recommended to insert `applejuice` as a tag.
+It's recommended to insert `applejuice` as a tag, preferably in that specific capitalization.
 
 ## Matchpost template
 
@@ -71,6 +65,10 @@ Join [the discord](https://discord.gg/X7ujJThANP) and then go to the #pre-whitel
 ---
 
 #### {{hostingName}}'s #{{count}}
+
+**F5 Abuse:** Allowed
+
+**F3 + A:** Allowed
 
 **Map size:** `{{mapSize}}x{{mapSize}}` (At Meetup, the border will shrink every 5 minutes and give a 10-second warning to when it shrinks, check the game configuration for the shrinks.)
 
@@ -114,6 +112,10 @@ The scenarios for this game are **{{scenarios|join>, }}**, a [list of scenario e
 ---
 
 #### {{hostingName}}'s #{{count}}
+
+**F5 Abuse:** Allowed
+
+**F3 + A:** Allowed
 
 **Map size:** `{{mapSize}}x{{mapSize}}` (At Meetup, the border will shrink every 5 minutes and give a 10-second warning to when it shrinks, check the game configuration for the shrinks.)
 
