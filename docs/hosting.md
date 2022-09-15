@@ -105,6 +105,10 @@ Should the server be lagging from intensive generation, use `/pregen pause` to p
 Let's say you have a scenario like `Underground Parallel` enabled, how would you generate the world using that scenario? It's simple actually! You must perform the command `/gen` after the pregeneration task has completed. This will then automatically generate your world based on the current scenarios that require generation.
 
 
+#### OPTIONAL: Adding a nether world to your game
+
+Let's say you want to link a nether world to your game, well, that's slightly simple! You must create a world named after your overworld world with the `_nether` suffix. For example, I typically call my worlds `minota`, so my nether world in this situation would be `minota_nether`. You must also change the world type in the generation settings to create said nether world.
+
 ### Configuring your game
 
 Some aspects aren't modified however, for example, the event times, game options, etc., so you need to configure that part yourself! 
