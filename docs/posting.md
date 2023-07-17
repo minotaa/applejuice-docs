@@ -16,11 +16,11 @@ You need to navigate to [hosts.uhc.gg/host](https://hosts.uhc.gg/host), then you
 
 For the version, you must insert `1.8` as the main version & `1.8.x` as the version range.
 
-You must insert the proper scenarios in your matchpost, they must be in the server & explained in the [pastebin](https://pastebin.com/raw/LcgRZ0iV)..
+You must insert the proper scenarios in your matchpost, they must be in the server & explained in the [pastebin](https://pastebin.com/raw/LcgRZ0iV).
 
 ### For NA
 
-For the Server Address, you must insert `uhc.applejuice.bar` as the Address.
+For the Server Address, you must insert `applejuice.games` as the Address.
 
 For the region, it must be `North America` & the location must be `Montreal, Canada`.
 
@@ -39,7 +39,7 @@ It's recommended to insert `applejuice` as a tag, preferably in that specific ca
 &nbsp;
 ### [Pre-whitelist Information](#I)
 ---
-Join [the discord](https://discord.gg/X7ujJThANP) and then go to the #pre-whitelist channel and request with your IGN to be whitelisted early!
+Join [the discord](https://discord.gg/GvcMPvG5fR) and then go to the #pre-whitelist channel and request with your IGN to be whitelisted early!
 
 &nbsp;
 ### [Extra Information](#I)
@@ -47,7 +47,7 @@ Join [the discord](https://discord.gg/X7ujJThANP) and then go to the #pre-whitel
 [**Player FAQ**](http://www.reddit.com/r/ultrahardcore/wiki/playerfaq) —
 [**Time.is**](http://time.is/UTC) —
 [**UBL Guidelines**](https://www.reddit.com/r/uhccourtroom/wiki/banguidelines) —
-[**Discord**](https://discord.gg/X7ujJThANP)
+[**Discord**](https://discord.gg/GvcMPvG5fR)
 
 &nbsp;
 ### [Server Information](#I)
@@ -94,7 +94,7 @@ The scenarios for this game are **{{scenarios|join>, }}**, a [list of scenario e
 [**Player FAQ**](http://www.reddit.com/r/ultrahardcore/wiki/playerfaq) —
 [**Time.is**](http://time.is/UTC) —
 [**UBL Guidelines**](https://www.reddit.com/r/uhccourtroom/wiki/banguidelines) —
-[**Discord**](https://discord.gg/X7ujJThANP)
+[**Discord**](https://discord.gg/GvcMPvG5fR)
 
 &nbsp;
 ### [Server Information](#I)
