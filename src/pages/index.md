@@ -10,4 +10,4 @@ You might be looking for [Guide](docs/intro).
 
 Try contacting higher-ups for support if you do not understand what's being told.
 
-[![Discord](https://discordapp.com/api/guilds/755473323026153611/widget.png?style=banner3)](https://discord.com/invite/X7ujJThANP)
+[![Discord](https://discordapp.com/api/guilds/1129303425629290507/widget.png?style=banner3)](https://discord.com/invite/GvcMPvG5fR)
